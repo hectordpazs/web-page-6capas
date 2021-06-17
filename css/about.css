@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),
+    rgba(0,0,0,0.75)),url("../assets/img/about.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    height: 100%;
+}
+
+.product{
+    width: 45%;
+    height: 100%;
+}
+
+.div-img{
+    height: 60%;
+    width: 70%;
+    margin: auto;
+}
+
+.div-img img{
+    height: 100%;
+}
+
+@media screen and (max-width:670px){
+    .product{
+        width: 100%;
+        margin-bottom: 10px;
+        height: 80%;
+    }
+    .product div{
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        width: 70%;
+        height: auto;
+    }
+    .product div img{
+        object-fit: contain;
+        height: auto;
+    }
+    .product p{
+        text-align: center;
+    }
+}
