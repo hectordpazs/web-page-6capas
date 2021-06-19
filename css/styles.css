@@ -6,7 +6,7 @@
 
 body{
     background-image: linear-gradient(rgba(0,0,0,0.75),
-    rgba(0,0,0,0.75)),url("../assets/img/main.jpg");
+    rgba(0,0,0,0.75));
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -132,7 +132,7 @@ footer span{
 
 .div-img img{
     width: 100%;
-    height: auto;
+    height: 100%;
     box-sizing: border-box;
     border-radius: 25px;
 }

@@ -1,9 +1,4 @@
-body{
-    background-image: linear-gradient(rgba(0,0,0,0.75),
-    rgba(0,0,0,0.75)),url("../assets/img/about.jpg");
-    background-size: cover;
-    background-position: center;
-}
+
 
 .main{
     width: 100%;
